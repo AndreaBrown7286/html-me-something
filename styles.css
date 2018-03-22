@@ -1,10 +1,37 @@
-.pics{
-    height: 15em;
-    
+.header {
+    background-image: url("http://phumc.com/wp-content/uploads/2016/01/beautiful_sky-banner.jpg");
+    text-align: center;
+    padding: 20px;
 }
+
+.pics{
+    height: 25em;
+    text-align: center;
+}
+
 body{
-    background-color: rgb(76, 97, 39);
+    background-color: rgba(29, 194, 172, 0.404);
     background-repeat: no-repeat;
-    background-size: 100em
-    
+    font-family:cursive;
+    margin: 50px;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.footer {
+    background-image:url("https://www.bouncycastlehire-norwich.com/theme/footer-background.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    padding: 35px;
+    height: 300px;
 }
