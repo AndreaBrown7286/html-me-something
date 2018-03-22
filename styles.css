@@ -7,31 +7,43 @@
 .pics{
     height: 25em;
     text-align: center;
+    
+}
+
+#falls{
+    height: 20em;
 }
 
 body{
     background-color: rgba(29, 194, 172, 0.404);
     background-repeat: no-repeat;
     font-family:cursive;
-    margin: 50px;
+    margin: 3em;
 }
 
 .column {
-    float: left;
+    float: none;
     width: 100%;
     text-align: center;
-    margin: 50px;
 }
 
 h1{
     font-size: 70px;
+    text-shadow: 3px 2px rgba(177, 154, 154, 0);
+    text-decoration: underline;
 }
 
-.footer {
-    background-image:url("https://www.bouncycastlehire-norwich.com/theme/footer-background.png");
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: 100px;
-    padding: 35px;
-    height: 300px;
+h2{
+    font-size: 35px;
+    text-decoration-line: underline;
 }
+
+.footer{
+    text-align: center;
+    background-image: url("https://www.bouncycastlehire-norwich.com/theme/footer-background.png");
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    background-position: 0px;
+    height: 275px;
+}
+
